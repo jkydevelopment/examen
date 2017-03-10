@@ -59,6 +59,16 @@ public class MetodologiaAgil {
         return a+b;
     }
     
+    int multiplica(){
+        int a; 
+        int b;
+        System.out.println("Introduce el valor del primer elemento:");
+        a = teclado.nextInt();
+        System.out.println("Introduce el valor del segundo elemento:");
+        b = teclado.nextInt();        
+        return a*b;
+    }
+    
     
     
 }
