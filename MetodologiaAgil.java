@@ -69,7 +69,19 @@ public class MetodologiaAgil {
         return a*b;
     }
     
-    
+    int resta(){
+        int a; 
+        int b;
+        System.out.println("Introduce el valor del minuendo:");
+        a = teclado.nextInt();
+        System.out.println("Introduce el valor del sustraendo:");
+        b = teclado.nextInt(); 
+        if (checkResta(a, b)){
+            System.out.println("Valores incorrectos. El minuendo debe ser mayor que el sustraendo");
+            resta();
+        }
+        return a-b;
+    }
     
     boolean checkResta(int a, int b){
         return (a>b);
