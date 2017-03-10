@@ -49,6 +49,16 @@ public class MetodologiaAgil {
         }
     }
     
+    int suma(){
+        int a; 
+        int b;
+        System.out.println("Introduce el valor del primer sumando:");
+        a = teclado.nextInt();
+        System.out.println("Introduce el valor del segundo sumando:");
+        b = teclado.nextInt();        
+        return a+b;
+    }
+    
     
     
 }
