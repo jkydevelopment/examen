@@ -71,4 +71,8 @@ public class MetodologiaAgil {
     
     
     
+    boolean checkResta(int a, int b){
+        return (a>b);
+    }
+    
 }
